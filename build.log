@@ -1,0 +1,36 @@
+
+> earthsonic@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.29
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./app/(workspace)/projects/page.tsx
+Module not found: Can't resolve '@/components/ui/kit'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/(workspace)/projects/page.tsx
+Module not found: Can't resolve '@/lib/download'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/(workspace)/projects/page.tsx
+Module not found: Can't resolve '@/lib/format'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/(workspace)/projects/page.tsx
+Module not found: Can't resolve '@/lib/projects'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/(workspace)/projects/page.tsx
+Module not found: Can't resolve '@/lib/state/exploration'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors
