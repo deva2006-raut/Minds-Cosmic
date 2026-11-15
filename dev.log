@@ -1,0 +1,136 @@
+
+> earthsonic@1.0.0 dev
+> next dev -p 3100
+
+   ▲ Next.js 15.5.29
+   - Local:        http://localhost:3100
+   - Network:      http://10.232.137.192:3100
+
+ ✓ Starting...
+ ✓ Ready in 3.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 1820ms (626 modules)
+ GET / 200 in 2736ms
+ GET / 200 in 104ms
+ ✓ Compiled /api/tile in 498ms (649 modules)
+ ⚠ Cross origin request detected from embedded-entries-cayman-phases.trycloudflare.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=1&y=0 200 in 3152ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=2&y=0 200 in 3147ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=4&y=0 200 in 3158ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=1&y=1 200 in 3193ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=2&y=1 200 in 2400ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=3&y=0 200 in 3221ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=0&y=1 200 in 3225ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=0&y=0 200 in 4231ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=0&y=2 200 in 699ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=1&y=2 200 in 741ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=3&y=1 200 in 1575ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=4&y=1 200 in 1140ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=3&y=2 200 in 1000ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=2&y=2 200 in 1056ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12&z=2&x=4&y=2 200 in 1001ms
+ ○ Compiling /lab ...
+ ✓ Compiled /lab in 967ms (685 modules)
+ GET /lab 200 in 1236ms
+ GET /lab 200 in 41ms
+ ○ Compiling /jukebox ...
+ ✓ Compiled /jukebox in 752ms (705 modules)
+ GET /jukebox 200 in 929ms
+ ✓ Compiled /api/power in 401ms (708 modules)
+ GET /lab 200 in 79ms
+ GET /api/power?kind=daily&lat=28.6139&lon=77.2090&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 3427ms
+ ○ Compiling /api/assistant ...
+ ✓ Compiled /api/assistant in 680ms (713 modules)
+ GET /api/assistant 200 in 749ms
+ GET /api/gistemp 200 in 3278ms
+ GET /jukebox 200 in 83ms
+ ○ Compiling /observatory ...
+ ✓ Compiled /observatory in 777ms (726 modules)
+ GET /observatory 200 in 915ms
+ GET /observatory 200 in 40ms
+ GET /observatory 200 in 37ms
+ ○ Compiling /api/layers/verify ...
+ ✓ Compiled /api/layers/verify in 633ms (729 modules)
+ GET /api/layers/verify?layer=IMERG_Precipitation_Rate&date=2026-11-12 200 in 2624ms
+ GET /api/layers/verify?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12 200 in 2732ms
+ ✓ Compiled /api/tile in 230ms (457 modules)
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=3&y=0 200 in 1355ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=4&y=0 200 in 1367ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=0&y=0 200 in 1710ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=2&y=0 200 in 1475ms
+ GET /api/layers/verify?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-12 200 in 1480ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=1&y=0 200 in 1827ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=2&y=1 200 in 769ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=3&y=1 200 in 821ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=1&y=1 200 in 822ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=0&y=1 200 in 981ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=4&y=1 200 in 1518ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=3&y=2 200 in 778ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=4&y=2 200 in 561ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=2&y=2 200 in 3387ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=1&y=2 200 in 3499ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-12&z=2&x=0&y=2 200 in 3497ms
+ ✓ Compiled /api/power in 288ms (460 modules)
+ GET /api/power?kind=daily&lat=21.1458&lon=79.0882&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 2650ms
+ GET /api/layers/verify?layer=IMERG_Precipitation_Rate&date=2026-11-14 200 in 739ms
+ GET /api/layers/verify?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-14 200 in 739ms
+ GET /api/layers/verify?layer=IMERG_Precipitation_Rate&date=2026-11-15 200 in 1849ms
+ GET /api/layers/verify?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15 200 in 3065ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=0&y=0 200 in 1190ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=1&y=0 200 in 1194ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=2&y=0 200 in 730ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=4&y=0 200 in 1175ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=3&y=0 200 in 1359ms
+ GET /api/layers/verify?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15 200 in 1384ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=1&y=1 200 in 619ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=2&y=1 200 in 618ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=0&y=1 200 in 1713ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=0&y=2 200 in 2034ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=3&y=1 200 in 2097ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=2&y=2 200 in 1903ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=4&y=2 200 in 1751ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=0&y=0 404 in 2660ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=1&y=0 404 in 1392ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=2&y=0 404 in 1642ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=3&y=0 404 in 1578ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=4&y=0 404 in 1277ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=1&y=2 200 in 4127ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=4&y=1 200 in 4603ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=0&y=1 404 in 560ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=1&y=1 404 in 511ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=3&y=1 404 in 643ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=2&y=1 404 in 646ms
+ GET /api/tile?layer=MODIS_Terra_CorrectedReflectance_TrueColor&date=2026-11-15&z=2&x=3&y=2 200 in 4758ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=0&y=2 404 in 593ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=4&y=1 404 in 595ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=2&y=2 404 in 406ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=1&y=2 404 in 612ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=3&y=2 404 in 612ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=4&y=2 404 in 613ms
+ GET /api/power?kind=daily&lat=9.7340&lon=99.9612&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 2238ms
+ GET /api/power?kind=daily&lat=10.0501&lon=117.6735&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 245ms
+ GET /api/power?kind=daily&lat=-9.5456&lon=89.7771&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 201ms
+ GET /api/power?kind=daily&lat=-14.2920&lon=74.3399&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 2550ms
+ GET /api/power?kind=daily&lat=19.0760&lon=72.8777&params=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR%2CRH2M%2CWS2M%2CWS10M%2CCLOUD_AMT%2CALLSKY_SFC_SW_DWN%2CGWETROOT%2CGWETTOP%2CPS&start=2026-08-16&end=2026-11-13 200 in 2458ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=1&y=1 404 in 1724ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=1&y=0 404 in 1732ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=4&y=0 404 in 1729ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=3&y=0 404 in 1734ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=0&y=1 404 in 1806ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=2&y=0 404 in 1822ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=2&y=1 404 in 1829ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=0&y=0 404 in 1872ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=4&y=1 404 in 360ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=3&y=1 404 in 416ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=2&y=2 404 in 407ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=0&y=2 404 in 779ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=3&y=2 404 in 475ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=1&y=2 404 in 477ms
+ GET /api/tile?layer=IMERG_Precipitation_Rate&date=2026-11-15&z=2&x=4&y=2 404 in 364ms
+ GET /lab 200 in 131ms
+ ✓ Compiled /api/gistemp in 407ms (460 modules)
+ ✓ Compiled (463 modules)
+ GET /api/assistant 200 in 723ms
+ GET /api/gistemp 200 in 3268ms
+ GET /jukebox 200 in 113ms
